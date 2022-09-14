@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+	text-decoration: none;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+	font-size: 62.5%;
+}
+body {
+	background: #111;
+	color: #fff;
+	font-size: 1.6rem;
+	font-family: "Roboto", sans-serif;
+}
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+button {
+	font-family: inherit;
+	border: none;
+	background: rebeccapurple;
+	color: #fff;
+	padding: 1rem 2rem;
+	border-radius: 0.3rem;
+	cursor: pointer;
+	font-weight: 500;
+}
+button:active {
+	transform: scale(0.97);
+}
+.successMessage {
+	color: green;
+	text-align: center;
+}
+.backLink {
+	font-size: 2rem;
+	color: #fff;
+	margin: 2rem;
+}
+.singleTask {
+	padding: 2rem 5rem;
 }

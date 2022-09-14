@@ -1,0 +1,22 @@
+.allTasks {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+	padding: 2rem 5rem;
+}
+.orderBy {
+	margin: 0rem 0 2rem 0;
+	border: 0;
+	font-family: inherit;
+	cursor: pointer;
+	outline: none;
+	background: rebeccapurple;
+	color: #fff;
+	padding: 0.5rem;
+	border-radius: 0.3rem;
+}
+.orderBy > option {
+	border-radius: 0;
+}
