@@ -1,48 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	list-style-type: none;
-	text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
 }
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
 }
 body {
-	background: #111;
-	color: #fff;
-	font-size: 1.6rem;
-	font-family: "Roboto", sans-serif;
+  background: #111;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
 }
 .App {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 button {
-	font-family: inherit;
-	border: none;
-	background: rebeccapurple;
-	color: #fff;
-	padding: 1rem 2rem;
-	border-radius: 0.3rem;
-	cursor: pointer;
-	font-weight: 500;
+  font-family: inherit;
+  border: none;
+  background: rebeccapurple;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-weight: 500;
 }
 button:active {
-	transform: scale(0.97);
+  transform: scale(0.97);
 }
 .successMessage {
-	color: green;
-	text-align: center;
+  color: green;
+  text-align: center;
 }
 .backLink {
-	font-size: 2rem;
-	color: #fff;
-	margin: 2rem;
+  font-size: 2rem;
+  color: #fff;
+  margin: 2rem;
 }
 .singleTask {
-	padding: 2rem 5rem;
+  padding: 2rem 5rem;
 }
